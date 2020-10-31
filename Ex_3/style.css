@@ -1,0 +1,12 @@
+.class1
+        {
+            margin-bottom:100px;
+            border:10px dotted; 
+            border-radius: 50%;
+            width: 500px;
+            height: 500px;
+        }
+#navbar 
+        {
+            list-style-type: none;
+        }
