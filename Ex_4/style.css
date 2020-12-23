@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+}
+.header{
+    max-width:100%;
+    background:radial-gradient(white, lightpink);
+}
+.container{
+    max-width: 100%;
+    margin: 0 3%;
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 20px;
+}
+.menu{
+    position:fixed;
+    right:3%;
+    top:0px;
+}
+.row{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items:center;
+}
+.col-2{
+    min-width: 300px;
+    flex-basis:50%;
+}
+.col-2 img{
+    max-width: 100%;
+    padding:50px 0px;
+}
+.btn{
+    margin-top:20px;
+    display:inline-block;
+    text-decoration: none;
+    color:white ;
+    background-color:red;
+    padding:20px 40px;
+    border-radius:30px;
+    transition: 0.75s;
+}
+.btn:hover{
+    background-color: black;
+}
+.categories{
+    margin:50px 0px;
+}
+.col-3{
+    min-width: 200px;
+    flex-basis: 30%;
+}
+.col-3 img{
+    max-width: 100%;
+}
+.star{
+    text-align: center;
+}
+.col-4{
+    min-width: 150px;
+    flex-basis: 23%;
+    transition: 0.5s;
+}
+.col-4 img{
+    max-width: 100%;
+}
+.title{
+    margin-bottom: 5%;
+    text-align: center;
+    position: relative;
+}
+.title::after{
+    content: "";
+    background-color: red;
+    width: 20%;
+    height:7px;
+    border-radius: 7px;
+    position: absolute;
+    top:100%;
+    left:40%;
+}
+.col-4:hover{
+    transform: translateY(-10px);
+}

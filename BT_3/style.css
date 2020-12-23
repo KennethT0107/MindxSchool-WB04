@@ -6,10 +6,7 @@ div{
     width: 300px;
     box-sizing: border-box;
     height: 300px;
-    border-width:0px 10px 10px; 
-    border-style:dotted;
-    border-color:black;
-    margin: 15px 0px;
+    margin: 15px 10px 20px;
 }
 
 .red {
